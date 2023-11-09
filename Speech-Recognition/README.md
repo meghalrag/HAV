@@ -20,9 +20,9 @@ just as shown below;
 
 ### Installing
 
-First, clone this project from github using git command or git gui application like [fork](https://github.com/meghalrag/qb_employee_management/fork).
+First, clone this project from github using git command or git gui application like [fork](https://github.com/meghalrag/HAV/fork).
 ```
-git clone https://github.com/meghalrag/qb_employee_management.git
+git clone https://github.com/meghalrag/HAV.git
 ```
 
 Making environment for project to isolation python installing libraries for this project only.
@@ -33,6 +33,7 @@ conda activate env
 
 Installing all libraries needed by this project using [pip](https://pypi.org/project/pip/).
 ```
+cd Hav/Speech-Recognition
 pip install -r requirements.txt
 ```
 
@@ -46,7 +47,7 @@ on sound that is directly fed from Microphone
 To run the Example do the following
 
 ```bash 
-$ python app.py 
+python app.py 
 ```
 ```
 Out:
@@ -66,10 +67,13 @@ sound loaded from local audio file
 To run the Example do the following 
 
 ```bash
-$ python3 app_audio.py 
-    Done recording
-    Recognizing the text
-    Decoded Text : python programming is the best of all by Jordan
+python app_audio.py 
+```
+```
+Out:
+Done recording
+Recognizing the text
+Decoded Text : python programming is the best of all by Jordan
 ```
 
 Recognizing From Long Audio File 
@@ -84,10 +88,14 @@ The script *long_audio.py* consist of Python demo code just to that
 To run the example do the Following 
 
 ```bash 
-$ python3 app_audio.py 
-    Done recording
-    Recognizing the text
-    Decoded Text : python programming is the best of all by Jordan
+python3 app_audio.py 
+```
+
+```
+Out:
+Done recording
+Recognizing the text
+Decoded Text : python programming is the best of all by Jordan
 ```
 
 ## Authors
